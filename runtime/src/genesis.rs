@@ -1,7 +1,7 @@
 //! Helper module to build a genesis configuration for the super-runtime
 
 use super::{
-	AccountId, BabeConfig, BalancesConfig, GenesisConfig, GrandpaConfig, Signature, SudoConfig,
+	AccountId, BabeConfig, BalancesConfig, GenesisConfig, GrandpaConfig, IndicesConfig, Signature, SudoConfig,
 	SystemConfig, WASM_BINARY,
 };
 use sp_consensus_babe::AuthorityId as BabeId;
@@ -80,6 +80,9 @@ pub fn testnet_genesis(
 				.iter()
 				.map(|x| (x.1.clone(), 1))
 				.collect(),
+		}),
+		indices: Some(IndicesConfig {
+			indices: vec![],
 		}),
 	}
 }

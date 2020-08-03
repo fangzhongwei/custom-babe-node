@@ -2771,6 +2771,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "node-primitives"
+version = "2.0.0-rc4"
+source = "git+https://gitee.com/expedition2020/substrate.git?tag=v2.0.0-rc4#00768a1f21a579c478fe5d4f51e1fa71f7db9fd4"
+dependencies = [
+ "frame-system",
+ "parity-scale-codec",
+ "sp-application-crypto",
+ "sp-core",
+ "sp-runtime",
+]
+
+[[package]]
 name = "node-template"
 version = "2.0.0-rc4"
 dependencies = [
@@ -2807,9 +2819,11 @@ dependencies = [
  "frame-executive",
  "frame-support",
  "frame-system",
+ "node-primitives",
  "pallet-babe",
  "pallet-balances",
  "pallet-grandpa",
+ "pallet-indices",
  "pallet-randomness-collective-flip",
  "pallet-sudo",
  "pallet-template",
@@ -3050,6 +3064,20 @@ dependencies = [
  "sp-runtime",
  "sp-session",
  "sp-staking",
+ "sp-std",
+]
+
+[[package]]
+name = "pallet-indices"
+version = "2.0.0-rc4"
+source = "git+https://gitee.com/expedition2020/substrate.git?tag=v2.0.0-rc4#00768a1f21a579c478fe5d4f51e1fa71f7db9fd4"
+dependencies = [
+ "frame-support",
+ "frame-system",
+ "parity-scale-codec",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
  "sp-std",
 ]
 
