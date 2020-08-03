@@ -8,70 +8,68 @@ static_assertions = "1.1.0"
 hex-literal = { version = "0.2.1", optional = true }
 
 # primitives
-sp-authority-discovery = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5"}
-sp-consensus-babe = { version = "0.8.0-rc4", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-sp-block-builder = { git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5", default-features = false, version = "2.0.0-rc5"}
-sp-inherents = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-node-primitives = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-sp-offchain = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-sp-core = { version = "2.0.0-rc5", default-features = false,git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-sp-std = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-sp-api = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-sp-runtime = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-sp-staking = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-sp-keyring = { version = "2.0.0-rc5", optional = true, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-sp-session = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-sp-transaction-pool = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-sp-version = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-
-babe = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
+sp-authority-discovery = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4"}
+sp-consensus-babe = { version = "0.8.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+sp-block-builder = { git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4", default-features = false, version = "2.0.0-rc4"}
+sp-inherents = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+node-primitives = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+sp-offchain = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+sp-core = { version = "2.0.0-rc4", default-features = false,git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+sp-std = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+sp-api = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+sp-runtime = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+sp-staking = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+sp-keyring = { version = "2.0.0-rc4", optional = true, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+sp-session = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+sp-transaction-pool = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+sp-version = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
 
 # frame dependencies
-frame-executive = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-frame-benchmarking = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5", optional = true }
-frame-support = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-frame-system = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-frame-system-benchmarking = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5", optional = true }
-frame-system-rpc-runtime-api = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-authority-discovery = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-authorship = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-babe = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-balances = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-collective = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-contracts = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-contracts-primitives = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-contracts-rpc-runtime-api = { version = "0.8.0-rc4", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-democracy = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-elections-phragmen = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-finality-tracker = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-grandpa = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-im-online = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-indices = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-identity = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-membership = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-multisig = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-offences = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-offences-benchmarking = { version = "2.0.0-rc5", git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5", default-features = false, optional = true }
-pallet-proxy = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-randomness-collective-flip = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-recovery = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-session = { version = "2.0.0-rc5", features = ["historical"], git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5", default-features = false }
-pallet-session-benchmarking = { version = "2.0.0-rc5", git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5", default-features = false, optional = true }
-pallet-staking = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-staking-reward-curve = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-scheduler = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-society = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-sudo = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-timestamp = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-treasury = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-utility = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-transaction-payment = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-transaction-payment-rpc-runtime-api = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
-pallet-vesting = { version = "2.0.0-rc5", default-features = false, git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
+frame-executive = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+frame-benchmarking = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4", optional = true }
+frame-support = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+frame-system = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+frame-system-benchmarking = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4", optional = true }
+frame-system-rpc-runtime-api = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-authority-discovery = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-authorship = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-babe = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-balances = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-collective = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-contracts = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-contracts-primitives = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-contracts-rpc-runtime-api = { version = "0.8.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-democracy = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-elections-phragmen = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-finality-tracker = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-grandpa = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-im-online = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-indices = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-identity = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-membership = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-multisig = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-offences = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-offences-benchmarking = { version = "2.0.0-rc4", git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4", default-features = false, optional = true }
+pallet-proxy = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-randomness-collective-flip = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-recovery = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-session = { version = "2.0.0-rc4", features = ["historical"], git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4", default-features = false }
+pallet-session-benchmarking = { version = "2.0.0-rc4", git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4", default-features = false, optional = true }
+pallet-staking = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-staking-reward-curve = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-scheduler = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-society = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-sudo = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-timestamp = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-treasury = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-utility = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-transaction-payment = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-transaction-payment-rpc-runtime-api = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
+pallet-vesting = { version = "2.0.0-rc4", default-features = false, git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
 
 
 [dev-dependencies]
-sp-io = { version = "2.0.0-rc5", git = "https://github.com/paritytech/substrate", branch = "2.0.0-rc5" }
+sp-io = { version = "2.0.0-rc4", git = "https://gitee.com/expedition2020/substrate-2.0.0-rc4", branch = "2.0.0-rc4" }
 
 [features]
 default = ["std"]
@@ -141,11 +139,11 @@ homepage = 'https://substrate.dev'
 license = 'Unlicense'
 name = 'node-template-runtime'
 repository = 'https://github.com/substrate-developer-hub/substrate-node-template/'
-version = '2.0.0-rc5'
+version = '2.0.0-rc4'
 [package.metadata.docs.rs]
 targets = ['x86_64-unknown-linux-gnu']
 [build-dependencies.wasm-builder-runner]
-git = 'https://github.com/paritytech/substrate'
+git = 'https://gitee.com/expedition2020/substrate-2.0.0-rc4'
 package = 'substrate-wasm-builder-runner'
-tag = 'v2.0.0-rc5'
+tag = 'v2.0.0-rc4'
 version = '1.0.5'
